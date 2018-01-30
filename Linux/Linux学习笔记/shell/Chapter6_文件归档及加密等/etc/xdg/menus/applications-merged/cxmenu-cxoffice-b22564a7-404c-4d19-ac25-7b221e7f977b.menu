@@ -1,0 +1,25 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Windows Applications</Name>
+    <Directory>cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-3ii0rqp.directory</Directory>
+    <Include>
+      <Category>X-cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-3ii0rqp</Category>
+    </Include>
+    <Menu>
+      <Name>腾讯软件</Name>
+      <Directory>cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-2sik35i.directory</Directory>
+      <Include>
+        <Category>X-cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-2sik35i</Category>
+      </Include>
+      <Menu>
+        <Name>QQ</Name>
+        <Directory>cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-0s5sic5.directory</Directory>
+        <Include>
+          <Category>X-cxmenu-cxoffice-b22564a7-404c-4d19-ac25-7b221e7f977b-0s5sic5</Category>
+        </Include>
+      </Menu>
+    </Menu>
+  </Menu>
+</Menu>

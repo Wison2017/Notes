@@ -1,0 +1,12 @@
+[Unit]
+Description=Mount unit for core
+Before=snapd.service
+
+[Mount]
+What=/var/lib/snapd/snaps/core_3604.snap
+Where=/snap/core/3604
+Type=squashfs
+Options=nodev,ro
+
+[Install]
+WantedBy=multi-user.target

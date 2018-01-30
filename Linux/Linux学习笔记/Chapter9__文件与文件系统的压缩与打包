@@ -1,0 +1,50 @@
+一、文件的压缩和解压缩
+
+   1、gzip
+   范例一：将/etc/manpath.config 文件复制到/tmp中，然后用gzip进行压缩
+   cd /tmp
+   cp /etc/manpath.config .
+   gzip -v manpath.config  -v可以用于显示压缩比等信息
+   
+   范例二：由于manpath.config是文本文件，将范例一的压缩文件内容读取出来
+   zcat manpath.config.gz
+
+   范例三：将范例一的文件解压缩
+   gzip -d manpath.config.gz
+   
+   范例四：将范例三解开的man.config用最佳的压缩比压缩，并保存原来的文件
+   gzip -9 -c manpath.config > man.config.gz
+
+   2、bzip2,bzcat
+   范例一:manpath.config使用gzip2进行压缩
+   bzip2 -z man.config  -z表示压缩
+
+   范例二：由于manpath.config是文本文件，将范例一的压缩文件内容读取出来
+   bzcat manpath.config.bz2
+
+   范例三：将范例一的文件解压缩
+   bzip2 -d manpath.config.bz2
+   
+   范例四：将范例三解开的man.config用最佳的压缩比压缩，并保存原来的文件
+   bzip2 -9 -c manpath.config > man.config.bz2  -c用于数据流重定向
+  
+   3、打包命令 tar
+   范例一：将目录/etc压缩成/tmp/etc.tar.gz
+   tar -zpcv -f /tmp/etc.tar.gz /etc
+   -z：使用gzip进行压缩
+   -p: 保留源文件的属性与权限
+   -c: 表示用于打包
+   -x: 表示解压缩
+   -v: 用于压缩或解压缩过程，显示正在处理的文件名
+   -C: 这个命令可以用于解压到特定目录
+   -t: 用于查看打包文件的内容
+   -P: 会包含绝对路径
+
+   tar -jpcv -f /tmp/etc.tar.bz2 /etc表示使用bzip2进行压缩
+   tar -jtv -f /tmp/etc.tar.bz2
+   
+   范例二：将etc.tar.bz2解压缩
+   tar -jxv -f /tmp/etc.tar.bz2 -C [解压缩的路径]
+   
+   范例三：仅仅打包，没有压缩
+   tar -cv -f file.tar

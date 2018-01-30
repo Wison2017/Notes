@@ -1,0 +1,11 @@
+TARGETS = tlp unattended-upgrades uuidd speech-dispatcher mysql thermald irqbalance kerneloops alsa-utils whoopsie smartmontools ufw bluetooth lightdm cups-browsed saned cups plymouth resolvconf urandom avahi-daemon sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+avahi-daemon: cups-browsed saned
+sendsigs: speech-dispatcher avahi-daemon mysql tlp thermald irqbalance unattended-upgrades kerneloops cups-browsed plymouth alsa-utils bluetooth lightdm uuidd
+rsyslog: sendsigs speech-dispatcher avahi-daemon mysql thermald irqbalance kerneloops cups-browsed bluetooth whoopsie saned cups smartmontools
+umountnfs.sh: rsyslog speech-dispatcher avahi-daemon mysql tlp thermald irqbalance unattended-upgrades kerneloops sendsigs cups-browsed plymouth alsa-utils bluetooth lightdm uuidd
+hwclock.sh: rsyslog mysql kerneloops cups-browsed uuidd
+networking: mysql umountnfs.sh kerneloops cups-browsed lightdm
+umountfs: speech-dispatcher networking avahi-daemon mysql umountnfs.sh tlp thermald irqbalance unattended-upgrades kerneloops urandom cups-browsed hwclock.sh plymouth alsa-utils bluetooth lightdm resolvconf uuidd
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

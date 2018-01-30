@@ -1,0 +1,62 @@
+    #[1]百度搜索
+   REFRESH(0 sec): [2]http://www.baidu.com/baidu.html?from=noscript
+
+   [3][USEMAP:bd_logo1.png]
+   [4]到百度首页 ____________________ 百度一下
+   输入法
+     * [5]手写
+     * [6]拼音
+     *
+     * [7]关闭
+
+   [8]百度首页[9]设置[10]登录
+   [11]新闻[12]hao123[13]地图[14]视频[15]贴吧[16]学术[17]登录[18]设置[19]更多产品
+   网页[20]新闻[21]贴吧[22]知道[23]音乐[24]图片[25]视频[26]地图[27]文库[28]更多»
+
+   手机百度
+
+   [29]把百度设为主页[30]关于百度[31]About  Baidu[32]百度推广
+
+   ©2018 Baidu [33]使用百度前必读 [34]意见反馈 京ICP证030173号  [35]京公网安备11000002000001号
+
+References
+
+   1. http://www.baidu.com/content-search.xml
+   2. http://www.baidu.com/baidu.html?from=noscript
+   3. LYNXIMGMAP:http://www.baidu.com/#mp
+   4. http://www.baidu.com/
+   5. javascript:;
+   6. javascript:;
+   7. javascript:;
+   8. http://www.baidu.com/
+   9. javascript:;
+  10. https://passport.baidu.com/v2/?login&tpl=mn&u=http://www.baidu.com/&sms=5
+  11. http://news.baidu.com/
+  12. http://www.hao123.com/
+  13. http://map.baidu.com/
+  14. http://v.baidu.com/
+  15. http://tieba.baidu.com/
+  16. http://xueshu.baidu.com/
+  17. https://passport.baidu.com/v2/?login&tpl=mn&u=http://www.baidu.com/&sms=5
+  18. http://www.baidu.com/gaoji/preferences.html
+  19. http://www.baidu.com/more/
+  20. http://news.baidu.com/ns?cl=2&rn=20&tn=news&word=
+  21. http://tieba.baidu.com/f?kw=&fr=wwwt
+  22. http://zhidao.baidu.com/q?ct=17&pn=0&tn=ikaslist&rn=10&word=&fr=wwwt
+  23. http://music.baidu.com/search?fr=ps&ie=utf-8&key=
+  24. http://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=
+  25. http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=25&ie=utf-8&word=
+  26. http://map.baidu.com/m?word=&fr=ps01000
+  27. http://wenku.baidu.com/search?word=&lm=0&od=0&ie=utf-8
+  28. http://www.baidu.com/more/
+  29. http://www.baidu.com/cache/sethelp/help.html
+  30. http://home.baidu.com/
+  31. http://ir.baidu.com/
+  32. http://e.baidu.com/?refer=888
+  33. http://www.baidu.com/duty/
+  34. http://jianyi.baidu.com/
+  35. http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001
+
+[USEMAP]
+http://www.baidu.com/#mp
+   1. http://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs

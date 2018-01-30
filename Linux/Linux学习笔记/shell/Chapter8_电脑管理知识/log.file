@@ -1,0 +1,529 @@
+n 15 11:59:02 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 12:33:21 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 13:26:49 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 14:05:56 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 14:31:17 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 14:55:41 eric-Lenovo-Y430P gnome-keyring-daemon[2082]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 15 14:55:41 eric-Lenovo-Y430P gnome-keyring-daemon[2082]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 15 15:07:58 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/下载 ; USER=root ; COMMAND=/usr/bin/find /home/eric -path *slynux*
+Jan 15 15:07:58 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 15:07:58 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 16:47:43 eric-Lenovo-Y430P dbus[1066]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.86" (uid=1000 pid=2686 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=1046 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 15 16:47:43 eric-Lenovo-Y430P dbus[1066]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.86" (uid=1000 pid=2686 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=1046 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 15 16:47:44 eric-Lenovo-Y430P systemd-logind[1056]: Operation 'sleep' finished.
+Jan 15 16:47:53 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 17:30:19 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 18:13:16 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 19:30:38 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 20:01:14 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 20:13:43 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/find /etc -type f -print0
+Jan 15 20:13:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 20:13:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 20:13:48 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/find /etc -type f -print0
+Jan 15 20:13:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 20:13:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 20:13:53 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/find /etc -type f -print0
+Jan 15 20:13:53 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 20:13:53 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 20:14:59 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/find /etc -type f -print0
+Jan 15 20:14:59 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 20:14:59 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 20:15:06 eric-Lenovo-Y430P sudo:     eric : TTY=pts/19 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/find /etc -type f -print0
+Jan 15 20:15:06 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 15 20:15:06 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 15 20:20:32 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 20:53:04 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 21:30:53 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 15 21:53:02 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 15 21:53:02 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 15 21:53:02 eric-Lenovo-Y430P pkexec[7491]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 15 22:36:39 eric-Lenovo-Y430P polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.90, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Jan 15 22:36:41 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session closed for user eric
+Jan 15 22:36:42 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 15 22:36:42 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 15 22:36:42 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 15 22:36:42 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 15 22:36:42 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 15 22:36:42 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 15 22:36:42 eric-Lenovo-Y430P systemd-logind[1056]: New session c3 of user lightdm.
+Jan 15 22:36:43 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 15 22:36:43 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 15 22:36:43 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 15 22:36:43 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 15 22:36:43 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 15 22:36:51 eric-Lenovo-Y430P systemd-logind[1056]: System is powering down.
+Jan 15 22:36:51 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 15 22:36:51 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 15 22:36:51 eric-Lenovo-Y430P systemd-logind[1056]: Removed session c2.
+Jan 15 22:36:51 eric-Lenovo-Y430P systemd-logind[1056]: Removed session c3.
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: New seat seat0.
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 16 09:46:11 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 16 09:46:12 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 16 09:46:12 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 16 09:46:12 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 16 09:46:12 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 16 09:46:12 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 16 09:46:12 eric-Lenovo-Y430P systemd-logind[1065]: New session c1 of user lightdm.
+Jan 16 09:46:12 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 16 09:46:13 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 16 09:46:13 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 16 09:46:13 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 16 09:46:13 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 16 09:46:13 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 16 09:46:16 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 16 09:46:16 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 16 09:46:16 eric-Lenovo-Y430P systemd-logind[1065]: New session c2 of user eric.
+Jan 16 09:46:16 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 16 09:46:17 eric-Lenovo-Y430P systemd-logind[1065]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 16 09:46:21 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: The PKCS#11 component was already initialized
+Jan 16 09:46:21 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: The Secret Service was already initialized
+Jan 16 09:46:21 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: The SSH agent was already initialized
+Jan 16 09:46:22 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.78 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 16 09:47:24 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 16 09:47:24 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 16 09:47:24 eric-Lenovo-Y430P pkexec[2814]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 16 09:48:13 eric-Lenovo-Y430P systemd-logind[1065]: Removed session c1.
+Jan 16 09:48:13 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 16 09:48:52 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 16 09:48:52 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 09:48:52 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 09:56:23 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 16 09:56:23 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 16 09:56:23 eric-Lenovo-Y430P pkexec[4482]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 16 10:17:19 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 10:22:24 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 10:24:42 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 10:24:43 eric-Lenovo-Y430P gnome-keyring-daemon[1541]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 10:31:44 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter2_命令之乐 ; USER=root ; COMMAND=/usr/bin/apt-get install expect
+Jan 16 10:31:44 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 10:31:49 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 10:32:24 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 16 10:32:24 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 16 10:32:24 eric-Lenovo-Y430P pkexec[11450]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 16 14:06:01 eric-Lenovo-Y430P dbus[1041]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.70" (uid=1000 pid=2252 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.6" (uid=0 pid=1069 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 16 14:06:01 eric-Lenovo-Y430P dbus[1041]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.70" (uid=1000 pid=2252 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.6" (uid=0 pid=1069 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 16 14:06:02 eric-Lenovo-Y430P systemd-logind[1065]: Operation 'sleep' finished.
+Jan 16 14:06:06 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 14:55:02 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 15:03:43 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/chattr +i file
+Jan 16 15:03:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 15:03:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 15:50:47 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 16:05:52 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=./filestat.sh /tmp
+Jan 16 16:05:52 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:05:53 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:18:43 eric-Lenovo-Y430P su[24578]: Successful su for root by eric
+Jan 16 16:18:43 eric-Lenovo-Y430P su[24578]: + /dev/pts/2 eric:root
+Jan 16 16:18:43 eric-Lenovo-Y430P su[24578]: pam_unix(su:session): session opened for user root by (uid=1000)
+Jan 16 16:18:43 eric-Lenovo-Y430P su[24578]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 16 16:20:57 eric-Lenovo-Y430P su[24578]: pam_unix(su:session): session closed for user root
+Jan 16 16:21:54 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/file loopbackfile.img
+Jan 16 16:21:54 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:21:54 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:22:51 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/bin/mkdir /mnt/loopback
+Jan 16 16:22:51 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:22:51 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:23:15 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/bin/mount -o loop loopback.img /mnt/loopback
+Jan 16 16:23:15 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:23:15 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:23:25 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/bin/mount -o loop loopbackfile.img /mnt/loopback
+Jan 16 16:23:25 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:23:25 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:24:49 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/bin/mount -o loop loopbackfile.img /mnt/loopback/
+Jan 16 16:24:49 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:24:49 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:27:05 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/bin/umount /mnt/loopback
+Jan 16 16:27:05 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:27:05 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:36:51 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/apt-get install isohybrid
+Jan 16 16:36:51 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:36:51 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:41:37 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/apt install tree
+Jan 16 16:41:37 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:41:40 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:42:15 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/apt install syslinux-utils
+Jan 16 16:42:15 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 16:42:18 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 16:42:28 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 16 16:42:28 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 16 16:42:28 eric-Lenovo-Y430P pkexec[27331]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 16 16:45:23 eric-Lenovo-Y430P systemd-logind[1065]: System is rebooting.
+Jan 16 16:45:23 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 16 16:45:23 eric-Lenovo-Y430P systemd-logind[1065]: Removed session c2.
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: New seat seat0.
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 16 16:50:19 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 16 16:50:22 eric-Lenovo-Y430P systemd-logind[1012]: New session c1 of user lightdm.
+Jan 16 16:50:22 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 16 16:50:22 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 16 16:50:25 eric-Lenovo-Y430P systemd-logind[1012]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 16 16:51:18 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 16 16:51:18 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 16 16:51:18 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 16 16:51:18 eric-Lenovo-Y430P systemd-logind[1012]: New session c2 of user eric.
+Jan 16 16:51:21 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: The PKCS#11 component was already initialized
+Jan 16 16:51:21 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: The Secret Service was already initialized
+Jan 16 16:51:21 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: The SSH agent was already initialized
+Jan 16 16:51:22 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.83 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 16 16:52:22 eric-Lenovo-Y430P systemd-logind[1012]: Removed session c1.
+Jan 16 16:52:22 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 16 16:52:24 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 16 16:52:24 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 16 16:52:24 eric-Lenovo-Y430P pkexec[2901]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 16 17:47:14 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 17:47:20 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 16 17:47:20 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 17:47:20 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 17:49:59 eric-Lenovo-Y430P sudo:     eric : TTY=pts/2 ; PWD=/home/eric ; USER=root ; COMMAND=/sbin/fdisk -l
+Jan 16 17:49:59 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 17:49:59 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 18:06:41 eric-Lenovo-Y430P sudo:     eric : TTY=pts/20 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter3_以文件之名 ; USER=root ; COMMAND=/usr/bin/touch file
+Jan 16 18:06:41 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 16 18:06:41 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 16 19:05:53 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 19:14:45 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 19:14:45 eric-Lenovo-Y430P gnome-keyring-daemon[2083]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 16 19:58:26 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 20:38:57 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 16 21:23:42 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 11:39:12 eric-Lenovo-Y430P dbus[1023]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.76" (uid=1000 pid=2493 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.22" (uid=0 pid=1563 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 17 11:39:12 eric-Lenovo-Y430P dbus[1023]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.76" (uid=1000 pid=2493 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.22" (uid=0 pid=1563 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 17 11:39:13 eric-Lenovo-Y430P systemd-logind[1012]: Operation 'sleep' finished.
+Jan 17 11:40:09 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 11:40:57 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 17 11:40:57 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 17 11:40:57 eric-Lenovo-Y430P pkexec[13439]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 17 12:23:59 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 14:15:31 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 14:39:59 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 15:38:32 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 16:04:40 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 17 16:07:55 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 08:47:44 eric-Lenovo-Y430P dbus[1023]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.76" (uid=1000 pid=2493 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.22" (uid=0 pid=1563 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 18 08:47:44 eric-Lenovo-Y430P dbus[1023]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.76" (uid=1000 pid=2493 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.22" (uid=0 pid=1563 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 18 08:47:45 eric-Lenovo-Y430P systemd-logind[1012]: Operation 'sleep' finished.
+Jan 18 08:48:03 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 08:50:00 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 18 08:50:00 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 18 08:50:00 eric-Lenovo-Y430P pkexec[29875]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 18 10:57:49 eric-Lenovo-Y430P systemd-logind[1012]: System is rebooting.
+Jan 18 10:57:49 eric-Lenovo-Y430P polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.83, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Jan 18 10:57:50 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: New seat seat0.
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 18 10:58:13 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 18 10:58:14 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 18 10:58:14 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 18 10:58:14 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 18 10:58:14 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 18 10:58:14 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 18 10:58:14 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 18 10:58:14 eric-Lenovo-Y430P systemd-logind[1116]: New session c1 of user lightdm.
+Jan 18 10:58:15 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 18 10:58:15 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 18 10:58:15 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 18 10:58:15 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 18 10:58:15 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 18 10:58:19 eric-Lenovo-Y430P systemd-logind[1116]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 18 10:58:19 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 18 10:58:19 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 18 10:58:19 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 18 10:58:19 eric-Lenovo-Y430P systemd-logind[1116]: New session c2 of user eric.
+Jan 18 10:58:23 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: The PKCS#11 component was already initialized
+Jan 18 10:58:23 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: The Secret Service was already initialized
+Jan 18 10:58:23 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: The SSH agent was already initialized
+Jan 18 10:58:23 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.76 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 18 10:59:26 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 18 10:59:26 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 18 10:59:26 eric-Lenovo-Y430P pkexec[2837]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 18 11:00:15 eric-Lenovo-Y430P systemd-logind[1116]: Removed session c1.
+Jan 18 11:00:15 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 18 11:05:02 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 11:05:38 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 18 11:05:38 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 11:05:38 eric-Lenovo-Y430P gnome-keyring-daemon[1871]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 11:31:36 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 12:04:38 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 17:53:32 eric-Lenovo-Y430P systemd-logind[1116]: System is rebooting.
+Jan 18 17:53:32 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 18 17:53:32 eric-Lenovo-Y430P systemd-logind[1116]: Removed session c2.
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: New seat seat0.
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 19 06:03:54 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 19 06:03:55 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 06:03:55 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 06:03:55 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 06:03:55 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 06:03:55 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 19 06:03:55 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 19 06:03:55 eric-Lenovo-Y430P systemd-logind[1089]: New session c1 of user lightdm.
+Jan 19 06:03:56 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 06:03:56 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 06:03:56 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 06:03:56 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 06:03:56 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 19 06:04:00 eric-Lenovo-Y430P systemd-logind[1089]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 19 06:04:02 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 19 06:04:02 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 19 06:04:02 eric-Lenovo-Y430P systemd-logind[1089]: New session c2 of user eric.
+Jan 19 06:04:02 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 19 06:04:06 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: The PKCS#11 component was already initialized
+Jan 19 06:04:06 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: The SSH agent was already initialized
+Jan 19 06:04:06 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: The Secret Service was already initialized
+Jan 19 06:04:06 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.77 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 18 22:05:09 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 18 22:05:09 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 18 22:05:09 eric-Lenovo-Y430P pkexec[3466]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 18 22:05:56 eric-Lenovo-Y430P systemd-logind[1089]: Removed session c1.
+Jan 18 22:05:56 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 18 22:09:21 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 18 22:09:21 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 22:09:22 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 22:09:59 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 22:09:59 eric-Lenovo-Y430P gnome-keyring-daemon[2101]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 18 22:23:19 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 18 22:45:09 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter5_网站下载/www.baidu.com ; USER=root ; COMMAND=/usr/bin/apt-get install lynx
+Jan 18 22:45:09 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 18 22:45:21 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 22:47:09 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 18 22:47:09 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 18 22:47:09 eric-Lenovo-Y430P pkexec[6372]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 18 22:49:33 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter5_网站下载/www.baidu.com ; USER=root ; COMMAND=/usr/bin/apt-get install curl
+Jan 18 22:49:33 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 18 22:49:40 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 22:50:09 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 18 22:50:09 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 18 22:50:09 eric-Lenovo-Y430P pkexec[6912]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 18 22:55:53 eric-Lenovo-Y430P systemd-logind[1089]: System is powering down.
+Jan 18 22:55:53 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 18 22:55:53 eric-Lenovo-Y430P systemd-logind[1089]: Removed session c2.
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: New seat seat0.
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 19 08:27:15 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 19 08:27:16 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 08:27:16 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 08:27:16 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 08:27:16 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 08:27:16 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 19 08:27:16 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 19 08:27:16 eric-Lenovo-Y430P systemd-logind[1111]: New session c1 of user lightdm.
+Jan 19 08:27:17 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 08:27:17 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 08:27:17 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 08:27:17 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 08:27:17 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 19 08:27:21 eric-Lenovo-Y430P systemd-logind[1111]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 19 08:27:43 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 19 08:27:43 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 19 08:27:43 eric-Lenovo-Y430P systemd-logind[1111]: New session c2 of user eric.
+Jan 19 08:27:43 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 19 08:27:47 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: The PKCS#11 component was already initialized
+Jan 19 08:27:47 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: The Secret Service was already initialized
+Jan 19 08:27:47 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: The SSH agent was already initialized
+Jan 19 08:27:47 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.82 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 19 08:28:50 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 19 08:28:50 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 19 08:28:50 eric-Lenovo-Y430P pkexec[5572]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 19 08:29:17 eric-Lenovo-Y430P systemd-logind[1111]: Removed session c1.
+Jan 19 08:29:17 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 19 08:31:49 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 19 08:31:49 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 19 08:31:49 eric-Lenovo-Y430P pkexec[6071]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 19 08:32:50 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 08:41:22 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 08:41:48 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 19 08:41:48 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 08:41:49 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 08:59:29 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 08:59:45 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 08:59:45 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 09:05:27 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 09:05:27 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 09:13:37 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 09:13:37 eric-Lenovo-Y430P gnome-keyring-daemon[2124]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 09:34:12 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 10:56:22 eric-Lenovo-Y430P systemd-logind[1111]: Creating /run/nologin, blocking further logins...
+Jan 19 10:56:25 eric-Lenovo-Y430P systemd-logind[1111]: System is powering down.
+Jan 19 10:56:25 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user eric
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: New seat seat0.
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 19 11:03:05 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 19 11:03:06 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 11:03:06 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 11:03:06 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 11:03:06 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 11:03:06 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 19 11:03:06 eric-Lenovo-Y430P systemd-logind[1113]: New session c1 of user lightdm.
+Jan 19 11:03:06 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 19 11:03:07 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 19 11:03:07 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 19 11:03:07 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 19 11:03:07 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 19 11:03:07 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 19 11:03:10 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 19 11:03:10 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 19 11:03:10 eric-Lenovo-Y430P systemd-logind[1113]: New session c2 of user eric.
+Jan 19 11:03:10 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 19 11:03:15 eric-Lenovo-Y430P systemd-logind[1113]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 19 11:03:16 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: The PKCS#11 component was already initialized
+Jan 19 11:03:16 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: The Secret Service was already initialized
+Jan 19 11:03:16 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: The SSH agent was already initialized
+Jan 19 11:03:16 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.85 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 19 11:03:49 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 19 11:03:49 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 11:03:49 eric-Lenovo-Y430P gnome-keyring-daemon[1576]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 19 11:04:20 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 19 11:04:20 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 19 11:04:20 eric-Lenovo-Y430P pkexec[3300]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 19 11:05:07 eric-Lenovo-Y430P systemd-logind[1113]: Removed session c1.
+Jan 19 11:05:07 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 19 11:55:16 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 14:42:47 eric-Lenovo-Y430P dbus[1070]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.70" (uid=1000 pid=1988 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.1" (uid=0 pid=1064 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 19 14:42:47 eric-Lenovo-Y430P dbus[1070]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.70" (uid=1000 pid=1988 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.1" (uid=0 pid=1064 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 19 14:42:48 eric-Lenovo-Y430P systemd-logind[1113]: Operation 'sleep' finished.
+Jan 19 14:43:19 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 15:14:15 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/usr/bin/mksquashfs /etc test.squashfs
+Jan 19 15:14:15 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 15:14:16 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 15:16:43 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/usr/bin/du -sh /etc
+Jan 19 15:16:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 15:16:43 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 15:17:48 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/usr/bin/du /opt
+Jan 19 15:17:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 15:17:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 15:17:56 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/usr/bin/du -sh /opt
+Jan 19 15:17:56 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 15:17:56 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 15:29:08 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 19 15:29:08 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 15:29:08 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 16:11:37 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter6_文件归档及加密等 ; USER=root ; COMMAND=/bin/mkdir -p /home/backups/backup.git
+Jan 19 16:11:37 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 16:11:37 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 16:12:03 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/backups/backup.git ; USER=root ; COMMAND=/usr/bin/git init --bare
+Jan 19 16:12:03 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 16:12:03 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:20:08 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/backups/backup.git ; USER=root ; COMMAND=/sbin/ifconfig enp7s0 172.29.109.129
+Jan 19 17:20:08 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 17:20:08 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:34:11 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 18:14:18 eric-Lenovo-Y430P su[11369]: Successful su for root by eric
+Jan 19 18:14:18 eric-Lenovo-Y430P su[11369]: + /dev/pts/18 eric:root
+Jan 19 18:14:18 eric-Lenovo-Y430P su[11369]: pam_unix(su:session): session opened for user root by (uid=1000)
+Jan 19 18:14:18 eric-Lenovo-Y430P su[11369]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 19 18:14:33 eric-Lenovo-Y430P su[11369]: pam_unix(su:session): session closed for user root
+Jan 19 18:15:45 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/backups/backup.git ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts
+Jan 19 18:15:45 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 18:15:52 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 18:22:18 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric ; USER=root ; COMMAND=/usr/bin/apt install traceroute
+Jan 19 18:22:18 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 18:22:27 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 18:24:24 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 19 18:24:24 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 19 18:24:24 eric-Lenovo-Y430P pkexec[12336]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 19 19:31:12 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 19:31:54 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric ; USER=root ; COMMAND=/usr/bin/apt-get install fping
+Jan 19 19:31:54 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 19 19:31:59 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 19:33:23 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 19 19:33:23 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 19 19:33:23 eric-Lenovo-Y430P pkexec[14011]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 19 20:24:08 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 19 23:15:56 eric-Lenovo-Y430P systemd-logind[1113]: System is powering down.
+Jan 19 23:15:56 eric-Lenovo-Y430P polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.85, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: New seat seat0.
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event3 (Power Button)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event6 (Video Bus)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event5 (Video Bus)
+Jan 20 09:27:34 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Jan 20 09:27:36 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 20 09:27:36 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 20 09:27:36 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 20 09:27:36 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 20 09:27:36 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 20 09:27:36 eric-Lenovo-Y430P systemd-logind[1003]: New session c1 of user lightdm.
+Jan 20 09:27:36 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 20 09:27:37 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 20 09:27:37 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 20 09:27:37 eric-Lenovo-Y430P lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 20 09:27:37 eric-Lenovo-Y430P lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 20 09:27:37 eric-Lenovo-Y430P lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eric"
+Jan 20 09:27:40 eric-Lenovo-Y430P systemd-logind[1003]: Watching system buttons on /dev/input/event21 (ThinkPad Extra Buttons)
+Jan 20 09:28:12 eric-Lenovo-Y430P lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 20 09:28:12 eric-Lenovo-Y430P lightdm: pam_unix(lightdm:session): session opened for user eric by (uid=0)
+Jan 20 09:28:12 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session opened for user eric by (uid=0)
+Jan 20 09:28:12 eric-Lenovo-Y430P systemd-logind[1003]: New session c2 of user eric.
+Jan 20 09:28:12 eric-Lenovo-Y430P dbus[1005]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.60" (uid=108 pid=2476 comm="/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.23" (uid=0 pid=1366 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 20 09:28:12 eric-Lenovo-Y430P dbus[1005]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.60" (uid=108 pid=2476 comm="/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indi") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=1366 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 20 09:28:15 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: The PKCS#11 component was already initialized
+Jan 20 09:28:15 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: The Secret Service was already initialized
+Jan 20 09:28:15 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: The SSH agent was already initialized
+Jan 20 09:28:16 eric-Lenovo-Y430P polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.89 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan 20 09:29:18 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 20 09:29:18 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 20 09:29:18 eric-Lenovo-Y430P pkexec[3739]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 20 09:29:36 eric-Lenovo-Y430P systemd-logind[1003]: Removed session c1.
+Jan 20 09:29:36 eric-Lenovo-Y430P systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jan 20 09:30:44 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Jan 20 09:30:44 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 20 09:30:44 eric-Lenovo-Y430P gnome-keyring-daemon[2579]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 20 09:32:18 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 20 09:32:18 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 20 09:32:18 eric-Lenovo-Y430P pkexec[4291]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 20 10:04:27 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 20 10:39:48 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric ; USER=root ; COMMAND=/usr/bin/lastb
+Jan 20 10:39:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 20 10:39:48 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 20 11:13:47 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/home/eric/桌面/Linux学习笔记/shell/Chapter_电脑管理知识 ; USER=root ; COMMAND=/usr/bin/apt-get install inotify-tools
+Jan 20 11:13:47 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 20 11:13:53 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root
+Jan 20 11:14:17 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 20 11:14:17 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 20 11:14:17 eric-Lenovo-Y430P pkexec[7783]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 20 11:32:16 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 20 15:17:34 eric-Lenovo-Y430P dbus[1005]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.82" (uid=1000 pid=2985 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.23" (uid=0 pid=1366 comm="/usr/lib/bluetooth/bluetoothd ")
+Jan 20 15:17:34 eric-Lenovo-Y430P dbus[1005]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.82" (uid=1000 pid=2985 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.23" (uid=0 pid=1366 comm="/usr/lib/bluetooth/bluetoothd ")]
+Jan 20 15:17:35 eric-Lenovo-Y430P systemd-logind[1003]: Operation 'sleep' finished.
+Jan 20 15:17:41 eric-Lenovo-Y430P compiz: gkr-pam: unlocked login keyring
+Jan 20 15:30:01 eric-Lenovo-Y430P pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 20 15:30:01 eric-Lenovo-Y430P pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jan 20 15:30:01 eric-Lenovo-Y430P pkexec[10961]: eric: Executing command [USER=root] [TTY=unknown] [CWD=/home/eric] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 20 15:35:33 eric-Lenovo-Y430P sudo:     eric : TTY=pts/18 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/touch message
+Jan 20 15:35:33 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 20 15:35:33 eric-Lenovo-Y430P sudo: pam_unix(sudo:session): session closed for user root

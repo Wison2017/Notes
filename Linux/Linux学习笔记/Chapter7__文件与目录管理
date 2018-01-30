@@ -1,0 +1,146 @@
+一、cp 的用法：
+   cp 源文件 目标文件
+   
+   总结：
+     1：如果复制的文件为连接文件，即快捷方式的话，那么需要加 -d ，不然复制过来的是源文件
+     2：如果复制的文件为一个目录，那么就需要加上 -r ，这样可以将目录下的文件都复制过来
+     3：加上 -a 可以将源文件的权限信息等都复制过来，但实际效果取决与你的操作账户
+     
+二、rm 的用法：
+   rm 文件名或目录
+     
+   总结:
+     1: -i 删除前会询问
+     2：rmdir /tmp/etc 用于删除目录；如果目录非空的话，用rm -r /tmp/etc
+     3: /rm -r /tmp/etc 删除此目录并且不询问
+     4：某些文件的命名的开头带有"-"，例如 -aaa，那么删除该文件的时候应该用路径，如: rm ./-aaa
+     
+三、mv 的用法：
+   my [-fiu] source destination
+   
+   总结：
+     1：-i 用于目标文件已经存在的时候，询问是否覆盖
+     2：-u 用于目标文件已经存在的时候，只有source更加新的时候，才会覆盖
+     3：-f 表示强制覆盖，不询问
+     4：多个文件移动到某个目录
+        mv test1 test2 test3 /etc    表示将test1,test2,test3移动到/etc
+     5：mv 还有另外一个用途，用于重命名文件
+
+四、获取文件名和目录名
+   basename
+   dirname
+  
+五、查阅文件内容
+   1、cat  从第一行开始显示文件内容
+   2、tac  从最后一行开始显示文件内容
+   3、cat -n 可以显示行号  ； 等同于  nl -b a
+      cat -b 可以忽略空白行 ; 等同于  nl -b t
+   4、cat -A  把文件的所有内容显示出来，包括特殊字符
+   5、windows的换行符为^M$，Linux的换行符为$
+   6、more 可翻页查看
+   7、less 可以向上翻页
+   8、head -n 20 /etc/manpath.config，不加参数默认为10行
+   9、tail -n 20 /etc/manpath.config,不加参数默认为10行；加上-f 的话会持续检测；
+   
+   查阅非纯文本文件
+   1、od -t c /usr/bin/passwd 将文件以ASCII字符来输出
+      a :利用默认的字符来输出
+      c :利用ASCII字符来输出
+      d :十进制
+      f :浮点数
+      o :八进制
+      x :十六进制
+
+六、修改文件时间或创建新文件：touch
+   1、文件的三个时间：
+      mtime: 文件内容改动的时间；
+      ctime: 文件的权限与属性被改动的时间；
+      atime: 文件被读取的时间；
+   用法：ls -l --time=atime /etc/man.config
+         ls 默认显示的是mtime
+
+   2、touch 除了可以创建新的文件意外，还可以修改文件的mtime和atime
+      示例：
+        touch -t 0709150202 bashrc 
+                 20080915 02:02
+     
+七、文件与目录的默认权限与隐藏权限
+    1、
+    对于文件，为  -rw-rw-rw-
+    对于目录，为  drwxrwxrwx
+    umask  得到 002 即 --------w-
+    那么新建的文件的默认权限为：
+    (-rw-rw-rw-) - (--------w-) = -rw-rw-r--
+    新建的目录的权限为：
+    (drwxrwxrwx) - (--------w-) = drwxrwxr-x
+
+八、文件隐藏属性chattr, lsattr
+   chattr [+-=] [ASacdistu] 文件或目录名称
+   
+   a:文件只能增加内容，但是不能删除也不能修改，只有root有权限可以设置
+   i:文件不能删除，只有root有权限可以设置
+
+   示例：
+   1. touch attrtest
+   2. chattr +i attrtest
+   3. rm attrtest 
+      显示失败
+   4. chattr -i attrtest
+
+   lsattr 文件或目录，可以显示文件的隐藏属性
+   示例：
+   1. chattr +aij attrtest
+   2. lsattr attrtest
+
+九、命令与文件的查询
+   1、命令的查找可以用 which, which 是通过PATH去查找的，所以账户不同，结果会不同
+   2、文件的查找：
+      whereis [-bmsu] 文件或目录名
+      -b ：只找二进制的文件
+      -m : 只找在说明文件manual 路径下的文件
+      -s : 只找source源文件
+      -u : 查找不在上述三个选项当中的其他特殊文件
+      
+      locate [-ir] keyword
+      -i ：忽略大小写的差异
+      -r : 后面可接正则表达式的显示方式
+      locate是从数据库里面去找，所以速度很快，但会出现信息延迟的情况，这个时候就需要用到  updatedb  命令去更新数据库。   
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,4 @@
+gnu is not unix
+linux is fun
+bash is art
+

@@ -1,0 +1,34 @@
+t在ubuntu下的配置
+jdk下载
+http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz
+tomcat下载
+http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.73/bin/apache-tomcat-7.0.73.tar.gz
+
+分别解压至各自文件夹 tar -zxvf xx.tar.gz
+
+ 
+
+$ sudo vim /etc/profile
+
+#java环境变量设置
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_121 选择自己下载的jdk
+export JRE_HOME=${JAVA_HOME}/jre 
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib 
+export PATH=${JAVA_HOME}/bin:$PATH
+
+#tomcat环境设置
+CATALINA_HOME=/usr/local/tomcat7
+export CATALINA_HOME
+
+$source /etc/profile 生效
+
+#编辑tomcat设置
+
+$sudo vim bin/catalina.sh
+#在文本开头添加
+CATALINA_HOME=/usr/local/tomcat7
+JAVA_HOME=/usr/local/java/jdk1.8.0_121
+JRE_HOME=${JAVA_HOME}/jre
+
+#启动tomcat
+$sudo ./bin/startup.sh

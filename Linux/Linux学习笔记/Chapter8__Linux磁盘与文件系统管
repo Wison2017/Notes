@@ -1,0 +1,89 @@
+一、Linux的文件系统
+  1、df                          可以调出目前挂载的设备
+  2、dumpe2fs /dev/sdb           查看该文件系统的相关信息
+  3、ls -l /lib/modules/$(uname -r)/kernel/fs    查看Linux支持的文件系统  4、cat /proc/filesystems       查看目前系统已加载到内存中支持的文件系统
+  5、du                          评估文件系统的磁盘使用量
+  
+二、连接文件 ln
+  1、硬连接：
+     ln /etc/crontab /etc/crontab2  将/etc/crontab2硬连接到/etc/crontab
+     ll -i /etc/crontab*
+  2、软连接：
+     ln -s /etc/crontab /etc/crontab3  将/etc/crontab3软连接到/etc/crontab，相当于快捷方式
+  
+三、磁盘的分区、格式化、校验与挂载
+  1、df  调出目前挂载的设备
+     fdisk /dev/sdb  接着可以对/dev/sdb这个设备进行操作，详情可m
+  2、fdisk -l  查看目前系统内的所有分区
+  
+  磁盘的分区:
+  1、fdisk /dev/sdb  然后对磁盘进行新增一个分区
+
+  磁盘的格式化：
+  1、mkfs -t ext3 /dev/sdb9  对上一个步骤中新增的分区进行格式化为ext3文件系统
+  ps: mkfs -t vfat /dev/sdb9   vfat 为windows可读的文件格式
+  
+  2、mke2fs [-b block大小] [-i inobe] [-L 卷标Label] [-j 将默认的ext2改为ext3] 设备
+
+  磁盘的校验
+  1、fsck -C -f -t ext3 /dev/sdb9
+  -C 以直方图显示进度
+  -f 强制检测，因为如果标志为clea默认不检测
+  -t 指定文件系统
+
+  2、badblocks -sv /dev/sdb9 检测/dev/sdb9是否有坏轨
+  -s 在屏幕显示进度
+  -v 可以在屏幕看到进度
+  
+  磁盘的挂载和卸载
+  挂载：
+  1、mkdir /mnt/sdb9
+  2、mount /dev/sdb9 /mnt/sdb9   将/dev/sdb9 挂载到/mnt/sdb9上面
+  卸载：
+  1、umount /dev/sdb9
+  ps: dumpe2fs -h /dev/sdb9 可以查看/dev/sdb9的卷标名称等信息
+ 
+  更改卷标名称
+  e2label  设备名称  新的Label名称
+  如： e2label /dev/sdb9 "helloworld"
+
+  设置开机挂载
+  主要是修改文件 /etc/fstab
+  比如要将SHARE, 即/dev/sda2开机挂载到 /mnt/sda2 可以这么做：
+  1、mkdir /mnt/sda2
+  2、在/etc/fstab后面添加这一行：
+     /dev/sda2  /mnt/sda2  vfat  defaults 1 2
+  3、mount -a 挂载上去
+  4、df
+
+  ps:在删除分区的时候，需要调用 partprobe  用于强制让内核重新找一次分区表
+
+四、创建大文件
+  1、dd if=/dev/zero of=/home/loopdev bs=1M counts=512
+  意思为创建一个block大小为1M,总大小为512M的文件/home/loopdev
+  if: input file
+  /dev/zero: 为一个一直输出0的设备
+  of: output file 
+
+五、构建内存交换空间swap
+  用分区的方法来构建：
+  1、 fdisk /dev/sdb
+  2、 n ---> 设置大小为1G  t ---> 更改swap的ID为82 ,最后 w
+  3、 partprobe
+  4、 mkswap /dev/sdb9
+  5、 free
+  6、 swapon /dev/sdb9
+  7、 swapon -s
+
+  通过利用已存在的分区构建大型文件的方法：
+  1、dd if=/dev/zero of=/tmp/swap bs=1M count=128
+  2、ll -h /tmp/swap
+  3、mkswap /tmp/swap
+  4、free
+  5、swapon /tmp/swap
+  
+  ps:可以使用swaponoff /tmp/swap 关掉
+  
+    
+  
+    

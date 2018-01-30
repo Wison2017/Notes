@@ -1,0 +1,25 @@
+TARGETS = rsyslog tlp unattended-upgrades uuidd killprocs apport binfmt-support speech-dispatcher dbus mysql thermald irqbalance kerneloops whoopsie single smartmontools cron rsync acpid anacron avahi-daemon bluetooth lightdm cups-browsed saned cups plymouth ondemand rc.local grub-common
+INTERACTIVE =
+speech-dispatcher: rsyslog
+dbus: rsyslog
+mysql: rsyslog
+thermald: rsyslog
+irqbalance: rsyslog
+kerneloops: rsyslog
+whoopsie: rsyslog
+single: killprocs
+smartmontools: rsyslog
+cron: rsyslog
+rsync: rsyslog
+acpid: rsyslog
+anacron: rsyslog
+avahi-daemon: dbus rsyslog
+bluetooth: rsyslog dbus
+lightdm: dbus acpid
+cups-browsed: rsyslog
+saned: rsyslog dbus
+cups: rsyslog
+plymouth: rsyslog speech-dispatcher avahi-daemon dbus mysql tlp thermald irqbalance unattended-upgrades kerneloops cups-browsed bluetooth lightdm uuidd whoopsie saned cups smartmontools cron rsync acpid apport binfmt-support anacron
+ondemand: rsyslog speech-dispatcher avahi-daemon dbus mysql tlp thermald irqbalance unattended-upgrades kerneloops cups-browsed bluetooth lightdm uuidd whoopsie saned cups smartmontools cron rsync acpid apport binfmt-support anacron
+rc.local: rsyslog speech-dispatcher avahi-daemon dbus mysql tlp thermald irqbalance unattended-upgrades kerneloops cups-browsed bluetooth lightdm uuidd whoopsie saned cups smartmontools cron rsync acpid apport binfmt-support anacron
+grub-common: rsyslog speech-dispatcher avahi-daemon dbus mysql tlp thermald irqbalance unattended-upgrades kerneloops cups-browsed bluetooth lightdm uuidd whoopsie saned cups smartmontools cron rsync acpid apport binfmt-support anacron
