@@ -1,0 +1,204 @@
+一、Create Repository --
+   1、
+   $ mkdir learngit
+   $ cd learngit
+   $ pwd
+  
+   2、
+   $ git init
+   $ git add readme.txt
+   $ git commit -m "wrote a readme file"
+
+二、
+   1、
+   change the content of readme.txt.
+   $ git status
+   $ git diff readme.txt
+   $ git add readme.txt
+   $ git status
+   $ git commit -m "add distributed"
+   $ git status
+
+三、reback versions
+   1、
+   change the content of readme.text again.
+   $ git add readme.txt
+   $ git commit -m "append GPL"
+   
+   PS: exits three versions:
+   -- "wrote a readme file"
+   -- "add distributed"
+   -- "append GPL"
+  
+   2、
+   $ git log   (check the history)
+   $ git log --pretty=oneline
+   $ git reset --hard HEAD^ (back to the last version,second version)
+   $ git log
+   $ git reset --hard (version id) (to and version)
+   
+   $ git reflog (get your log and you can go to future version)
+   
+四、Working Directory && stage && master
+   1、
+   change the content of readme.txt again
+   add LICENSE file
+   $ git status
+   $ git add readme.txt
+   $ git add LICENSE
+   $ git status
+   $ git commit -m "understand how stage works"
+   $ git status
+
+五、Manager Modification
+   1、
+   $ cat readme.txtsdsa
+   change the content of readme.txt again
+   $ git add readme.txt
+   $ git status
+   $ cat readme.txt
+   change again
+   $ git commit -m "git tracks changes"
+   
+   PS: the first change was commited, but not the second change.
+   
+   $ git status
+
+   $ git diff HEAD -- readme.txt (Show the difference between working directory and master)
+
+   $ git add readme.txt
+   $ git commit -m "the second change"
+
+六、Undo Changes
+   1、
+   $ cat readme.txt
+   Some wrong changes in readme.txt
+   $ git status
+   Haven't add to stage
+   $ git checkout -- readme.txt
+   rollback
+   
+   2、
+   $ cat readme.txt
+   Some wrong changes in readme.txt
+   $ git add readme.txt
+   added to the stage
+   $ git status
+   $ git reset HEAD readme.txt
+   now stage clean, but working directory modified
+   $ git checkout -- readme.txt
+   $ git status
+   now done!
+
+七、delete files
+   1、
+   $ git add test.txt
+   $ git commit -m "add test.txt"
+   $ rm test.txt
+   now, working directory's file was deleted, but not repository
+   
+   choose 1: delete file at repository
+   $ git cm test.txt
+   $ git commit -m "remove test.txt"
+
+   choose 2: recovery file
+   git checkou -- test.txt
+
+八、create SSH keys
+   $ ssh-keygen -t rsa -C "youremail@example.com"
+
+九、uploading your repository to github
+   $ git remote add origin git@github.com:....
+   or
+   $ git remote add origin https://www....
+   $ git push -u origin master
+   because of "-u"
+   $ git push origin master
+   
+十、clone from remote repository
+   $ git clone git@gitchub.com:....
+   or 
+   $ git clone https://
+   
+十一、 branch management
+   1、create and merge branch
+   $ git checkout -b dev 
+   equals 
+   $ git branch dev
+   $ git checkout de
+
+   $ git branch
+   check branchs
+
+   $ git checkout dev
+   $ git add readme.txt
+   $ git commit -m "branch test"
+   $ git checkout master
+   
+   $ git merge dec
+   $ git branch -d dev
+   delete branch dev
+   $ git branch
+  
+   2、 solve the confilcts
+   $ git checkout -b featurel
+   
+   change the content of readme.txt
+   $ git add readme.txt
+   $ git commit -m "AND SIMPLE"
+   $ git checkout master
+   
+   change the content of readme.txt
+   $ git add readme.txt
+   $ git commit -m "& simple"
+   $ git merge featurel
+
+   and confilcts throwed
+   $ git status
+   
+   solve the conflicts and then
+   $ git add reame.txt
+   $ git commit -m "conflict fixed"
+   $ git log --graph --pretty=oneline --abbrev-commit
+
+   $ git branch -d feturel
+  
+   3、merge branches by Fast Forward will delete the branch information
+    so we can forbidden Fast Forward
+  
+   $ git checkout -b dev
+   change content of readme.txt
+   $ git add readme.txt
+   $ git commit -m "add merge"
+   $ git checkout master
+   $ git merge --no-ff -m "merge with no-ff" dev
+   $ git log --graph --pretty=oneline --abbrev-commit
+   
+   4、bug branch
+   $ git status
+   at branch dev
+   $ git stash   (save the scene)
+   $ git checkout master
+   $ git checkout -b issue-101
+   $ git add readme.txt
+   $ git commit -m "fix bug 101"
+   $ git checkout master
+   $ git merge --no-ff -m "merged bug fix 101" issue-101
+   $ git branch -d issue-101
+   $ git checkout dev
+   $ git status
+   $ git stash list (check the scenes)
+
+   $ git stash apply stash@{0}
+   $ git stash pop (this operation will delete the stash)
+
+   5、Feature branch
+   $ git checkout -b feature-vulcan
+   $ git add vulcan.py
+   $ git status
+   $ git commit -m "add feature vulcan"
+   $ git checkout dev
+   
+   delete branch feature-vulcan
+   $ git branch -d feature-vulcan
+   $ git branch -D feature-vulcan
